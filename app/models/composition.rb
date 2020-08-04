@@ -1,0 +1,3 @@
+class Composition < ApplicationRecord
+
+end

@@ -1,0 +1,247 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {                                
+    font-size: 2em;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+
+
+p {                                
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: normal;
+    color: #777;
+}
+
+
+h3 {
+    font-size: 1.5em;               
+    line-height: 1.7em;
+}
+
+h4 {
+    font-size: 1.0em;               
+    line-height: 1.7em;
+}
+
+h5 {
+    font-size: 1.0em; 
+    color:#922B21;      
+    padding: 10px;
+    }
+
+
+h6 {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0); 
+}
+
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+
+
+/* sidebar */
+aside {
+    section.user_info {
+        margin-top: 20px;
+    }
+    section {
+        padding: 10px 0;
+        margin-top: 20px;
+        &:first-child {
+            border: 0;
+            padding-top: 0;
+        }
+        span {
+            display: block;
+            margin-bottom: 3px;
+            line-height: 1;
+        }
+        h1 {
+            font-size: 1.4em;
+            text-align: left;
+            letter-spacing: -1px;
+            margin-bottom: 3px;
+            margin-top: 0px;
+        }
+    }
+}
+.gravatar {
+    float: left;
+    margin-right: 10px;
+}
+.gravatar_edit {
+    margin-top: 15px;
+}
+
+/* forms */
+input, textarea, select, .uneditable-input {
+    border: 1px solid #bbb;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+input {
+    height: auto !important;
+}
+
+#error_explanation {
+    color: red;
+    ul {
+        color: red;
+        margin: 0 0 30px 0;
+    }
+}
+
+.field_with_errors {
+    @extend .has-error;
+    .form-control {
+        color: $state-danger-text;
+    }
+}
+
+
+
+#userInfo{
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+#buy_btn{
+    align-self: center;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+    font-size: 1.3em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 10px;
+    font-weight: bold;
+    &:hover {
+    color: rgb(73, 70, 70);
+    text-decoration: none;
+    }
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+
+
+#usertable {
+        table-layout: auto ;
+        width: 100% ;
+      }
+#usertable td {
+        width: 50% ;
+        padding: 10px ;
+      }
+
+      .footer{
+        background: black;
+        color:white;
+        
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 auto;
+        padding: 15px;
+        background-color: #242729;
+        background-image: none;
+        background-repeat: no-repeat;
+        border-top: 0;
+        background-size: auto;
+        color: #6a737c;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto; 
+        
+        .links{
+          ul {list-style-type: none;}
+          li a{
+            color: white;
+            transition: color .2s;
+            &:hover{
+              text-decoration:none;
+              color:rgb(158, 158, 158);
+              }
+          }
+        }  
+        .about-company{
+          i{font-size: 25px;}
+          a{
+            color:white;
+            transition: color .2s;
+            &:hover{color:#4180CB}
+          }
+        } 
+        .location{
+          i{font-size: 18px;}
+        }
+        .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+    }
+
+    .footer h4{
+        color: white;
+        font-size:1.0em;
+    }
+    .footer p{
+        color: rgb(158, 158, 158);
+        font-size: 15px;
+    }
+
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+      }
+      
+    #content-wrap {
+        padding-bottom: auto;    /* Footer height */
+      }
+      
+  
+.uploadpage p{
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}

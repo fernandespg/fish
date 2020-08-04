@@ -1,0 +1,3 @@
+class Echogram < ApplicationRecord
+
+end

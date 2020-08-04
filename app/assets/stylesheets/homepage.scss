@@ -1,0 +1,123 @@
+header{
+    color: white; 
+    background-color: #666;  
+};
+#header_txt{
+    padding-top: 5px;  
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+};
+body{
+    padding-top: 50px;
+    font: 20px "Montserrat", sans-serif;
+};
+
+.details{
+    display: flex;
+    justify-content: space-between;
+};
+.image_link{
+    padding-left: 40px;
+    font-size: 20px;
+    color: blue;
+    align-self: flex-start;
+};
+
+
+
+/* Clear floats after the columns */
+section:after 
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+.brand-centered {
+
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-right{
+    margin-right: 20px;
+}
+
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+
+
+
+#zoom:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.brand-centered {
+
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-right{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
